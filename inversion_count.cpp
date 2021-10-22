@@ -31,6 +31,8 @@ int merge(int arr[], int low, int mid, int high)
         }
         
     }
+    
+    
     else{
         while (i<=mid)
         {
@@ -45,6 +47,8 @@ int merge(int arr[], int low, int mid, int high)
 
     return count;
 }
+// This function serves the merging of sorted arrays
+
 int mergesort(int arr[], int low, int high)
 {
     int mid;
